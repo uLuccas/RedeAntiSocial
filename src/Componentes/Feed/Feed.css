@@ -1,0 +1,16 @@
+/* .MainFeed {
+  width: 100%;
+  justify-content: space-between;
+  background: linear-gradient(180deg, #6d5069 0%, #6d4768 100%);
+} */
+.feed{
+  display: flex;
+  flex-direction: column;
+}
+.feed-post {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-self: center;
+  margin: 20px 10px 10px 10px;
+}

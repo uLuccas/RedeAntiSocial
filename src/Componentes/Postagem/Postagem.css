@@ -1,0 +1,120 @@
+.tudo {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  width: 490px;
+  height: 40px;
+  align-items: center;
+  flex-direction: row;
+}
+
+.post {
+  display: flex;
+  width: 550px;
+  height: auto;
+  min-height: 350px;
+  background-color: #2e2b2b;
+  border-radius: 3px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  align-items: center;
+  justify-content: center;
+}
+.textArea {
+  width: 520px;
+  height: 197px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 3px;
+  color: #302e2e;
+  font-size: large;
+  resize: none;
+  margin-right: 5px;
+}
+
+.fotoPerfil {
+  width: 100%;
+  height: 100%;
+}
+
+.foto {
+  border: 1px solid transparent;
+  overflow: hidden;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.botoes {
+  display: flex;
+  margin: 10px;
+  width: 689px;
+  justify-content: space-between;
+}
+
+.uploadImg {
+  width: 105px;
+  height: 35px;
+  background-color: #8b5b85;
+  color: white;
+  border-radius: 5px;
+  border-color: #8b5b85;
+  border: solid 2px;
+  box-shadow: 3px 2px 2px black;
+  font-size: 36;
+}
+.publicar {
+  width: 105px;
+  height: 35px;
+  background-color: #8b5b85;
+  color: white;
+  border-radius: 5px;
+  border-color: #8b5b85;
+  border: solid 2px;
+  box-shadow: 3px 2px 2px black;
+  font-size: 36;
+}
+
+.fundoUsuario {
+  height: 40px;
+  width: auto;
+  display: contents;
+  background-color: #302e2e;
+  color: white;
+  border-radius: 3 px;
+}
+
+.picuinha {
+  height: 50px;
+  margin: 20px 20px 20px 9px;
+}
+.container-picuinha {
+  margin: 0 auto;
+  max-width: 925px;
+  position: relative;
+}
+
+.picuinha img {
+  width: 50px;
+  height: 50px;
+  right: 5px;
+  top: 5px;
+}
+
+.Modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modalForaPost {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  inset: 0px;
+}

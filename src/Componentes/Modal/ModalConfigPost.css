@@ -1,0 +1,58 @@
+.modalFora {
+  background-color: transparent;
+  position: fixed;
+  inset: 0px;
+}
+
+.modalDentroConfig {
+  position: absolute;
+  display: flex;
+  inset: 40px;
+  border: 1px solid rgb(0, 0, 0);
+  color: white;
+  background: #302e2ef8;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  width: 275px;
+  height: 190px;
+  text-align: center;
+  justify-items: center;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.alterar {
+  width: 150px;
+  background-color: white;
+  color: #8b5b85;
+  border-radius: 5px;
+  border-color: #8b5b85;
+  border: solid 2px;
+  box-shadow: 3px 2px 2px black;
+}
+
+.delete {
+  width: 150px;
+  background-color: #8b5b85;
+  color: white;
+  border-radius: 5px;
+  border-color: #8b5b85;
+  border: solid 2px;
+  box-shadow: 3px 2px 2px black;
+}
+
+.modalDentroConfig button {
+  margin-right: 15px;
+  margin-left: 15px;
+  width: 80px;
+}
+
+.modalDentroConfig button:hover {
+  background-color: #b18dac;
+  color: white;
+  transition: 0.5s;
+}

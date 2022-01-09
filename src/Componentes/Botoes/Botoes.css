@@ -1,0 +1,23 @@
+.bts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+button {
+  width: 210px;
+  height: 50px;
+  background-color: white;
+  color: #8b5b85;
+  border-radius: 5px;
+  border-color: #8b5b85;
+  border: solid 2px;
+  box-shadow: 3px 2px 2px black;
+  font-size: 36;
+}
+
+button:hover {
+  background-color: #b18dac;
+  color: white;
+  transition: 0.5s;
+}

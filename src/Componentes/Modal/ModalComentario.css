@@ -1,0 +1,57 @@
+.modalForaComentario {
+  background-color: transparent;
+  position: fixed;
+  inset: 0px;
+}
+
+.modalDentro {
+  position: absolute;
+  inset: 40px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  width: 220px;
+  height: 115px;
+  text-align: center;
+  justify-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnYesNo {
+  display: flex;
+  margin: 10px;
+  height: 40px;
+  width: 170px;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.sim {
+  width: 50px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.nao {
+  width: 50px;
+  color: white;
+  border-color: white;
+  border: solid 1px;
+  background-color: #8b5b85;
+  border-radius: 5px;
+}
+
+button {
+  margin-right: 10px;
+}
+.sim, .nao button{
+    margin-right: 10px;
+}

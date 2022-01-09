@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+.menu-lateral {
+  position: relative;
+  left: 0;
+  width: 250px;
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btns {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.btn-lateral {
+  font-weight: 900;
+  width: 140px;
+  height: 35px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  color: #8B5B85;
+}
+
+.btn-lateral:hover {
+  background-color: #b18dac;
+  border: 2px solid #b18dac;
+  color: #ffff;
+}
+
+.descricao {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+#desc {
+  padding: 5px;
+  font-style: italic;
+  font-size: 20px;
+  color: rgba(46, 43, 43, 1);
+}
+
+#autor {
+  font-style: normal;
+  font-size: 14px;
+  padding: 10px;
+}
+

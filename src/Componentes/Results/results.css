@@ -1,0 +1,106 @@
+.areaSolici {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+.areaSolici h3 {
+  text-align: center;
+}
+.conteudo-resultado {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.conteudo-result {
+  border-radius: 3px;
+  margin: 10px;
+  background: #2e2b2b;
+  display: flex;
+  height: 70px;
+  width: 500px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nome-usuario {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.nome-usuario h4 {
+  text-align: justify;
+  margin: 5px;
+}
+
+.nome-usuario p {
+  margin: 5px;
+  font-size: 0.9rem;
+}
+.conteudo h4 {
+  color: #8b5b85;
+}
+
+.fotoPerfil {
+  width: 100%;
+  height: 100%;
+}
+
+.foto {
+  border: 1px solid transparent;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.btAceitar {
+  width: 70px;
+  height: 35px;
+  background-color: #8b5b85;
+  color: #fff;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(255, 255, 255, 0);
+  border-radius: 3px;
+  border: none;
+  font-size: 36;
+  margin-left: 10px;
+  font-weight: 900;
+}
+
+.btDesfazer {
+  width: 140px;
+  height: 35px;
+  background-color: #8b5b85;
+  color: #fff;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(255, 255, 255, 0);
+  border-radius: 3px;
+  border: none;
+  font-size: 36;
+  margin-left: 10px;
+  font-weight: 900;
+}
+
+.btnAceitar:hover {
+  font-weight: 900;
+  color: #fff;
+  background-color: #b18dac;
+  border: none;
+}
+
+.btnDesfazer:hover {
+  font-weight: 900;
+  color: #fff;
+  background-color: #b18dac;
+  border: none;
+}
+
+h3 {
+  margin-top: 10px;
+  color: white;
+}

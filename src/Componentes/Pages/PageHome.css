@@ -1,0 +1,25 @@
+.page-home {
+  background: linear-gradient(180deg, #6D5069 0%, #6D4768 100%);
+}
+
+.content-home {
+  display: flex;
+
+}
+
+.elemento{
+  width: 100%;
+}
+
+
+.elemento-dois{
+  width: 100%;
+}
+
+.separador{
+  margin: 30px 10px 30px 0px;
+  width: 3px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #2E2B2B;
+}
+

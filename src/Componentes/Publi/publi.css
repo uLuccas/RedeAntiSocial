@@ -1,0 +1,81 @@
+#publi-card {
+  width: 550px;
+  height: auto;
+  min-height: 350px;
+  background-color: #2e2b2b;
+  border-radius: 3px;
+  margin: 0px 30px 50px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#foto-usuario {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  outline: 5px solid rgba(255, 255, 255, 0.432);
+  outline-offset: -5px;
+}
+.head {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 3px solid #8b5b85;
+}
+
+#data-postagem {
+  font-style: normal;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.head h3 {
+  width: 250px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+}
+
+.publi {
+  min-height: 250px;
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  text-align: left;
+}
+
+.settings-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.picuinha-publi {
+  resize: none;
+  width: 520px;
+  max-width: 520px;
+  max-height: 220px;
+  height: 200px;
+  font-style: normal;
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
+  width: 450px;
+  font-size: 16px;
+  color: #2e2b2b;
+}
+
+.divBtn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.publi-conteudo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

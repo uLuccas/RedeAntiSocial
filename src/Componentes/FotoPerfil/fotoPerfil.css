@@ -1,0 +1,65 @@
+.nomeUsuario {
+  color: rgb(0, 0, 0);
+  padding: 5px;
+}
+
+.foto-capa {
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+#div-capa {
+  height: 230px;
+  overflow: hidden;
+  /* overflow: scroll; */
+}
+
+#div-perfil {
+  background-size: cover;
+  height: 260px;
+  width: 270px;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  border-radius: 50%;
+  outline: 15px solid rgba(255, 255, 255, 0.432);
+  outline-offset: -15px;
+}
+
+#div-perfil-comentario {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 55px;
+  height: 55px;
+  overflow: hidden;
+  border-radius: 50%;
+  outline: 15px solid rgba(255, 255, 255, 0.432);
+  outline-offset: -15px;
+  position: relative;
+  float: left;
+  top: -10em;
+  left: 3em;
+}
+
+#div-perfil-post {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 165px;
+  overflow: hidden;
+  border-radius: 50%;
+  outline: 15px solid rgba(255, 255, 255, 0.432);
+  outline-offset: -15px;
+  /* position: relative;
+  float: left;
+  top: -10em;
+  left: 3em; */
+}
+
+.feed-perfil {
+  display: flex;
+  width: 100%;
+}

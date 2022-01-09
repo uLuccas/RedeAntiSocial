@@ -1,0 +1,224 @@
+ .closeButton  {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+
+  .imagens{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .exampleModalScrollable{
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    width: 750px;
+    height: 750px;
+    background: #c5c2c2;
+    border-radius: 10px;
+  }
+
+  .input-cadastrar div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom:10px;
+  }
+
+  .label-config{
+    margin: 10px 0px 10px 0px;
+  }
+
+  .label-config div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom:10px;
+  }
+
+  .input-cadastrar div label{
+    width:150px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .perfil-sobre{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .label-config div label{
+    width:150px;
+  }
+
+
+  .foto-perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .modal-config{
+    overflow: hidden;
+  }
+
+  #closeButton{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+  }
+
+  .h3-modal{
+      color:black;
+      text-align: center;
+  }
+  .h4-modal{
+      color:black;
+      text-align: center;
+  }
+  .h5-modal{
+      color:black;
+      text-align: center;
+  }
+
+  .icon-config{
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+  }
+
+  #foto-usuario-card {
+    height:150px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  
+  #botoes-atualizar {
+    display: inline-flex;
+    margin: 10px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #botoes-atualizar div{
+    display: inline-flex;
+    margin: 10px;
+    width: 50%;
+    justify-content: space-around;
+  }
+
+
+  #botoes-atualizar button{
+    width: 130px;
+    height: 35px;
+  }
+
+  #botoes-atualizar button:hover{
+    background-color: #8b5b85;
+    color: #fff;
+    border-radius: 5px;
+  }
+
+  #foto-capa-config {
+    width: 250px;
+    height:150px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+
+  .alinhar-foto-capa{
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items:center;
+  }
+
+  #sobre-mim-config {
+    width: 951px;
+    height: 145px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .input-config {
+    width: 450px;
+  }
+
+  #botao-desativar-config {
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    padding: 10px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-bottom-style: solid;
+    border-top-color: #ffffff;
+    border-right-color: #ffffff;
+    border-bottom-color: #ffffff;
+    border-left-color: #ffffff;
+    background-color: #9b0f0f;
+    border-radius: 10px;
+  }
+  #botao-desativar-config:hover {
+    color: #ffffff;
+    background-color: #5f2002;
+  }
+  
+  #botao-salvar-config {
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    padding: 10px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-bottom-style: solid;
+    border-top-color: #ffffff;
+    border-right-color: #ffffff;
+    border-bottom-color: #ffffff;
+    border-left-color: #ffffff;
+    background-color: rgba(76, 112, 242, 1);
+    border-radius: 10px;
+  }
+  #botao-salvar-config:hover {
+    color: #ffffff;
+    background-color: #2e032e;
+  }
+
+ /* .config-modal{
+    background-color: #979494b2;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  } */
+
+
+  .modal-footer{
+      display: flex;
+      justify-content: space-between;
+      margin: 10px;
+      margin: 10px;
+  }
+
+.input-config-nome{
+    width: 250px;
+    display: inline-flex;
+    margin: 10px;
+    padding: 4px;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+}

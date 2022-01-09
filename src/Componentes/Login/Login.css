@@ -1,0 +1,84 @@
+.Login {
+  height: 500px;
+  width: 350px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Login h1 {
+  color: #8b5b85;
+  font-size: 36px;
+  margin: 10px;
+}
+
+#pass, #email{
+  width: 250px;
+  height: 50px;
+  background: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding-left: 10px;
+}
+
+#pass, #email:focus {
+  outline-color: #b18dac;
+}
+
+.logo-pg-login img {
+  width: 70px;
+  height: 70px;
+}
+
+#esqueci {
+  color: #b18dac;
+  font-style: italic;
+  font-size: 14px;
+  margin-right: 100px;
+}
+
+#status {
+  font-weight: bolder;
+  color: #8b5b85;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.btn-login {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn-login button {
+  width: 60px;
+  height: 30px;
+  border: 2px solid #8b5b85;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  font-size: 16px;
+  color: #8b5b85;
+}
+
+.btn-login button:hover {
+  color: #ffffff;
+  background: #8b5b85;
+}
+
+#pass::placeholder {
+  color: #b18dac;
+  font-style: italic;
+  font-size: 14px;
+}
+
+#email::placeholder {
+  color: #b18dac;
+  font-style: italic;
+  font-size: 14px;
+}
